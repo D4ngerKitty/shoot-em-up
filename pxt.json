@@ -1,0 +1,56 @@
+{
+    "name": "shoot em up ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "arcade-platformer": "github:microsoft/arcade-platformer#v0.0.10",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.0.1",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.51",
+        "tag": "v1.12.51",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/eb9fd884260f64c934fb51355e36f8c76272b6b4",
+        "target": "1.12.56",
+        "pxt": "8.5.63",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#D0D058",
+        "#FF2121",
+        "#708028",
+        "#FF8135",
+        "#FFF609",
+        "#249CA3",
+        "#78DC52",
+        "#003FAD",
+        "#87F2FF",
+        "#8E2EC4",
+        "#A4839F",
+        "#5C406c",
+        "#A0A840",
+        "#708028",
+        "#405010"
+    ]
+}
